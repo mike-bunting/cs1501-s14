@@ -1,0 +1,27 @@
+{
+  "name": "node-example",
+  "version": "0.0.0",
+  "description": "CS 1501 App",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mike-bunting/cs1501-s14.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "miguel-buntero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike-bunting/cs1501-s14/issues"
+  },
+  "homepage": "https://github.com/mike-bunting/cs1501-s14",
+  "dependencies": {
+    "express": "^4.0.0",
+    "logfmt": "^1.1.2"
+  }
+}
