@@ -7,10 +7,11 @@ app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
   res.send('Hello World1!');
+  res.send('Hello World2!');
 });
 
 app.get('/', function(req, res) {
-  res.send('Hello World2!');
+  res.send('Hello World3!');
 });
 
 var port = Number(process.env.PORT || 5000);
