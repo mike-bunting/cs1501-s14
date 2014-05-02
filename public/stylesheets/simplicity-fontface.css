@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'SimplicityMedium';
+    src: url('/fonts/simplicity/simplicity-webfont.eot');
+    src: url('/fonts/simplicity/simplicity-webfont.eot') format('eot'),
+         url('/fonts/simplicity/simplicity-webfont.woff') format('woff'),
+         url('/fonts/simplicity/simplicity-webfont.ttf') format('truetype'),
+         url('/fonts/simplicity/simplicity-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

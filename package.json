@@ -1,10 +1,10 @@
 {
-  "name": "node-example",
-  "version": "0.0.0",
+  "name": "Miguel-Buntero's-Website",
+  "version": "0.0.1",
+  "private": true,
   "description": "CS 1501 App",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,16 @@
   },
   "homepage": "https://github.com/mike-bunting/cs1501-s14",
   "dependencies": {
-    "express": "^4.0.0",
-    "logfmt": "^1.1.2"
+    "express": "3.1.0",
+    "mocha": "1.18.2",
+    "stylus": "0.44.0",
+    "logfmt": "1.1.2",
+    "jade": "0.28.1"
+  },
+  "devDependencies": {
+    "mocha": "1.15.1"
   }
+  "engines": {
+    "node": "0.10.x"
+  },
 }
